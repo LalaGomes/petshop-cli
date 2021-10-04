@@ -1,0 +1,63 @@
+Construindo funções no arquivo funcoes.js
+
+✔ Crie uma função chamada listar @done(21-09-13 17:12)
+  . Essa função deve imprimir no console uma tabela
+    com as informações dos cachorros cadastrados.
+    Dica: experimente a função console.table
+  . Essa função não deve receber nenhum parâmetro
+  . Essa função não deve retornar nada.
+
+✔ Crie uma função chamada descrever @done(21-09-16 11:43)
+  . Essa deve imprimir todas as informações de um cachorro.
+  . Ela não deve receber o index do cachorro a ser descrito.
+  . Ela não deve retornar nada como parâmetro.
+  . Essa função deve imprimir uma mensagem "Cachorro inexistente"
+    caso a posição passada não possua nenhum cachorro cadastrado.
+
+☐ Crie uma função chamada adicionar
+  . Essa função deve adicionar um novo cachorro no arquivo
+    de cachorros.
+  . Essa função deve receber como parâmetros *nesta ordem*
+      + nome (string)
+      + sexo (string)
+      + castrado (boolean),
+      + dataDeNascimento (string no formato "AAAA-MM-DD"),
+      + peso (number)
+  . Essa função não deve retornar nada.
+  . Crie um objeto literal com as informações do cachorro
+  . Lembre de atribuir um array vazio para vacinas e para servicos
+  . Adicione o objeto literal que tem as informações do cachorro
+    ao array de cachorros.
+  . Salve o array de cachorros em forma de JSON no arquivo
+    database/cachorros.json
+
+☐ Crie uma função chamada vacinar.
+  . Essa função deve adicionar um objeto literal com
+    as informações de uma vacina (nome e datahora da aplicação)
+    no array de vacinas de um cachorro.
+  . Ela deve receber dois parâmetros *nesta ordem*
+      + pos  (Posição do cachorro no array de cachorros)
+      + vacina (Nome da vacina)
+  . Essa função não retorna nada.
+  . Essa função deve imprimir uma mensagem "Cachorro inexistente"
+    caso a posição passada não possua nenhum cachorro cadastrado.
+
+☐ Crie uma função chamada atribuirServico
+  . Essa função deve adicionar um serviço ao array de serviços
+    de um cachorro
+  . Ela deve receber dois parâmetros *nesta ordem*
+    + pos (Posição do cachorro no array de cachorros)
+    + servico (string que dá nome ao serviço)
+  . Essa função não retorna nada.
+  . Essa função deve imprimir uma mensagem "Cachorro inexistente"
+    caso a posição passada não possua nenhum cachorro cadastrado.
+
+☐  Crie uma função chamada remover
+  . Essa função deve remover um cachorro do array de serviços.
+  . Ela deve recber um único parâmetro
+    + pos (a posição do cachorro no array)
+  . Essa função não deve retornar nada
+  . Essa função deve imprimir uma mensagem "Cachorro inexistente"
+    caso a posição passada não possua nenhum cachorro cadastrado.
+      
+    
