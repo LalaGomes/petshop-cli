@@ -14,7 +14,7 @@ Construindo funções no arquivo funcoes.js
   . Essa função deve imprimir uma mensagem "Cachorro inexistente"
     caso a posição passada não possua nenhum cachorro cadastrado.
 
-☐ Crie uma função chamada adicionar
+✔ Crie uma função chamada adicionar @done(21-10-04 17:40)
   . Essa função deve adicionar um novo cachorro no arquivo
     de cachorros.
   . Essa função deve receber como parâmetros *nesta ordem*
